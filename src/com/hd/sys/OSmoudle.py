@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding=utf-8
 '''
 Created on Dec 7, 2015
 
@@ -10,3 +12,6 @@ import os as oos
 
 print(oos.listdir(oos.getcwd()))
 print(oos.path.exists("/usr/local"))
+
+y = [1,2,3]
+print y
